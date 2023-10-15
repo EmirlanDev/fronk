@@ -1,0 +1,307 @@
+@mixin h1 {
+  color: #FFF;
+
+  font-family: Alumni Sans;
+  font-size: 229.374px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#mint {
+  padding: 20px 0;
+
+  .first {
+    position: relative;
+
+    &--title {
+      &__one {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        stroke-width: 1px;
+        stroke: #FFF;
+
+        h1 {
+          @include h1;
+          margin: 0;
+
+          span {
+            color: transparent;
+            -webkit-text-stroke: 1px #FFFFFF; /* Толщина и цвет обводки */
+          }
+        }
+
+        &--square {
+          width: 496px;
+          height: 136px;
+          border: 1px solid white;
+          position: relative;
+          margin: 0;
+
+          p:nth-child(1) {
+            position: absolute;
+            width: 515px;
+            height: 1px;
+            background: white;
+            bottom: 67.3px;
+            right: -9px;
+            transform: rotate(15.3deg);
+          }
+
+          p:nth-child(2) {
+            position: absolute;
+            width: 515px;
+            height: 1px;
+            background: white;
+            bottom: 67.3px;
+            right: -9px;
+            transform: rotate(-15.3deg);
+          }
+        }
+
+      }
+
+      &__circle {
+        position: absolute;
+        left: 279px;
+        top: -16px;
+        width: 615px;
+        height: 615px;
+        flex-shrink: 0;
+        border-radius: 615px;
+        opacity: 0.5;
+        background: radial-gradient(
+                        50% 50% at 50% 50%,
+                        #ec8425 0%,
+                        rgba(236, 132, 37, 0) 100%
+        );
+        filter: blur(175px);
+      }
+
+      &__two {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+
+        h1 {
+          @include h1;
+          margin: -74px 0 0 0;
+
+        }
+
+        &--line {
+          width: 587px;
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          margin: 0;
+
+          div {
+            height: 20px;
+            width: 100%;
+          }
+
+          div:nth-child(1) {
+            background: linear-gradient(270deg, #EC8425 0%, rgba(236, 132, 37, 0.00) 62.1%);
+          }
+
+          div:nth-child(2) {
+            background: linear-gradient(270deg, #EC8425 0%, rgba(236, 132, 37, 0.00) 72.32%);
+          }
+
+          div:nth-child(3) {
+            background: linear-gradient(270deg, #EC8425 0%, rgba(236, 132, 37, 0.00) 83.9%);
+          }
+
+          div:nth-child(4) {
+            background: linear-gradient(270deg, #EC8425 0%, rgba(236, 132, 37, 0.00) 100%);
+          }
+        }
+      }
+
+      &__three {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+          color: #FFF;
+          margin: 0;
+          font-family: Alumni Sans;
+          font-size: 79.457px;
+          font-style: normal;
+          font-weight: 200;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+
+        &--line {
+          border: 2px solid white;
+          padding: 14px;
+          display: flex;
+          align-items: start;
+          gap: 9px;
+          margin: 0;
+
+          h3 {
+            color: #FFF;
+            font-family: Archivo;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+
+          .icon {
+            font-size: 19.5px;
+            color: white;
+          }
+        }
+
+        &--arrow {
+          width: 312px;
+          background: white;
+          height: 1px;
+          position: relative;
+          margin: 0;
+
+          p:nth-child(1) {
+            position: absolute;
+            width: 15px;
+            height: 1.2px;
+            background: white;
+            transform: rotate(45deg);
+            bottom: 6px;
+            right: -2px;
+          }
+
+          p:nth-child(2) {
+            position: absolute;
+            width: 15px;
+            height: 1.2px;
+            background: white;
+            transform: rotate(-45deg);
+            bottom: -5px;
+            right: -2px;
+          }
+        }
+      }
+    }
+  }
+
+  .second {
+    position: relative;
+    margin-top: 160px;
+    &--line {
+      position: absolute;
+      background: linear-gradient(90deg, #E57208 0%, rgba(229, 114, 8, 0.00) 100%);
+      width: 55%;
+      top: 19%;
+      height: 61%;
+
+    }
+
+    &--page {
+      display: flex;
+      align-items: center;
+
+      &__left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+          color: #FFF;
+          font-family: Alumni Sans;
+          font-size: 193.693px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 68%; /* 131.711px */
+          text-transform: uppercase;
+          margin: 0;
+          z-index: 2;
+        }
+
+        img {
+          width: 549px;
+          height: 549px;
+          z-index: 2;
+          margin: 5px 0 0 -135px;
+        }
+
+      }
+
+      &__title {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+
+        p {
+          color: #FFF;
+          font-family: Archivo;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 154.3%;
+          text-transform: uppercase;
+
+        }
+
+        &--morthe {
+         display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 15px;
+          &__first{
+            width: 86px;
+            height: 22px;
+            background: #E57208;
+
+          }
+          &__second{
+            width: 15px;
+            height: 22px;
+            background: #E57208;
+
+          }
+          &__third{
+            width: 9px;
+            height: 22px;
+            background: #E57208;
+
+          }
+          &__fourth{
+            width: 25px;
+            height: 22px;
+            background: #E57208;
+
+          }
+        }
+
+    &--text{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      h3 {
+        font-family: Alumni Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 0;
+        line-height: 67%;
+        text-transform: uppercase;
+        color: #000000;
+        -webkit-text-stroke: 1px #FFFFFF;
+      }
+
+    }
+      }
+    }
+  }
+
+}

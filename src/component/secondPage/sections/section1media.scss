@@ -1,0 +1,131 @@
+@media (max-width: 1435px) {
+  #mint {
+    .first {
+      &--title{
+
+
+&__one{
+  h1{
+   font-size: 224.374px !important;
+  }
+  &--square{
+    max-width: 490px;
+    max-height: 132px;
+    p:nth-child(1) {
+      max-width: 506px;
+      bottom: 65.3px !important;
+      transform: rotate(15deg) !important;
+    }
+    p:nth-child(2) {
+      max-width: 506px;
+      bottom: 65.3px !important;
+      transform: rotate(-15deg) !important;
+    }
+  }
+}
+        &__two{
+          &--line{
+            max-width: 564px;
+          }
+        }
+        &__three {
+          &--arrow {
+            max-width: 270px;
+          }
+        }
+    }
+  }
+    .second {
+
+        &--page {
+          &__left {
+            h1 {
+              font-size: 190.693px;
+            }
+
+            img {
+              max-width: 520px;
+              max-height: 520px;
+            }
+          }
+          &__title{
+            &--morthe{
+              gap: 14px !important;
+            }
+          }
+        }
+
+    }
+  }
+}
+@media (max-width: 1024px) {
+
+  #mint {
+    .first {
+      &--title{
+
+
+&__one{
+  h1{
+    font-size: 172.374px !important;
+  }
+  &--square{
+    max-width: 311px;
+    max-height: 105px;
+    p:nth-child(1) {
+      max-width: 330px;
+      bottom: 52.3px !important;
+      transform: rotate(18.3deg) !important;
+
+    }
+    p:nth-child(2) {
+      max-width: 330px;
+      bottom: 52.3px !important;
+      transform: rotate(-18.3deg) !important;
+    }
+  }
+}
+        &__two{
+          align-items: center !important;
+          h1{
+            font-size: 172.374px !important;
+            margin: -38px 0 -27px 0 !important; ;
+          }
+          &--line{
+            max-width: 400px;
+            gap: 12px !important;
+            div{
+              max-height: 15px;
+            }
+          }
+        }
+        &__three {
+          &--arrow {
+            max-width: 270px;
+          }
+        }
+    }
+  }
+    .second {
+
+        &--page {
+          &__left {
+            h1 {
+              font-size: 190.693px;
+            }
+
+            img {
+              max-width: 520px;
+              max-height: 520px;
+            }
+          }
+          &__title{
+            &--morthe{
+              gap: 14px !important;
+            }
+          }
+        }
+
+    }
+  }
+}
