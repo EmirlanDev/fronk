@@ -22,9 +22,9 @@
           border-radius: 615px;
           opacity: 0.5;
           background: radial-gradient(
-                          50% 50% at 50% 50%,
-                          #ec8425 0%,
-                          rgba(236, 132, 37, 0) 100%
+            50% 50% at 50% 50%,
+            #ec8425 0%,
+            rgba(236, 132, 37, 0) 100%
           );
           filter: blur(175px);
         }
@@ -60,7 +60,6 @@
               position: absolute;
               top: 10px;
               right: 214px;
-
             }
           }
 
@@ -82,28 +81,27 @@
           height: 264px;
           border: 1px solid #d9d9d9;
           margin: 0;
-        div{
-          display: flex;
-          h1 {
-            font-family: Alumni Sans, sans-serif;
-            font-size: 130px;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: -6px;
-            text-transform: uppercase;
-            color: transparent;
-            -webkit-text-stroke: 1px #ffffff;
-            margin-left: 70px;
-            z-index: 2;
-          }
+          div {
+            display: flex;
+            h1 {
+              font-family: Alumni Sans, sans-serif;
+              font-size: 130px;
+              font-weight: 700;
+              line-height: normal;
+              letter-spacing: -6px;
+              text-transform: uppercase;
+              color: transparent;
+              -webkit-text-stroke: 1px #ffffff;
+              margin-left: 70px;
+              z-index: 2;
+            }
 
-          img {
-            position: absolute;
-            right: 206px;
-            top: 10px;
-
+            img {
+              position: absolute;
+              right: 206px;
+              top: 10px;
+            }
           }
-        }
 
           p {
             width: 473px;
@@ -125,32 +123,31 @@
           border: 1px solid #d9d9d9;
           margin: 0;
 
-     div{
-       display: flex;
-       h1 {
-         margin-left: 45px;
-         font-family: Alumni Sans, sans-serif;
-         font-size: 130px;
-         font-weight: 700;
-         line-height: normal;
-         letter-spacing: -6px;
-         text-transform: uppercase;
-         color: transparent;
-         -webkit-text-stroke: 1px #ffffff;
-         z-index: 2;
-       }
+          div {
+            display: flex;
+            h1 {
+              margin-left: 45px;
+              font-family: Alumni Sans, sans-serif;
+              font-size: 130px;
+              font-weight: 700;
+              line-height: normal;
+              letter-spacing: -6px;
+              text-transform: uppercase;
+              color: transparent;
+              -webkit-text-stroke: 1px #ffffff;
+              z-index: 2;
+            }
 
-      img {
-        position: absolute;
-        width: 103px;
-        height: 103px;
-        top: 10px;
-        right: 44%;
-       }
-     }
+            img {
+              position: absolute;
+              width: 103px;
+              height: 103px;
+              top: 10px;
+              right: 44%;
+            }
+          }
 
           p {
-
             margin-left: 45px;
             width: 396px;
             color: #fff;
@@ -170,27 +167,27 @@
           border: 1px solid #d9d9d9;
           margin: 0;
 
-      div{
-        display: flex;
-        h1 {
-          font-family: Alumni Sans, sans-serif;
-          font-size: 130px;
-          font-weight: 700;
-          line-height: normal;
-          letter-spacing: -6px;
-          text-transform: uppercase;
-          color: transparent;
-          -webkit-text-stroke: 1px #ffffff;
-          margin-left: 45px;
-          z-index: 2;
-        }
+          div {
+            display: flex;
+            h1 {
+              font-family: Alumni Sans, sans-serif;
+              font-size: 130px;
+              font-weight: 700;
+              line-height: normal;
+              letter-spacing: -6px;
+              text-transform: uppercase;
+              color: transparent;
+              -webkit-text-stroke: 1px #ffffff;
+              margin-left: 45px;
+              z-index: 2;
+            }
 
-        img {
-          position: absolute;
-          top: 27px;
-          right: 24%;
-        }
-      }
+            img {
+              position: absolute;
+              top: 27px;
+              right: 24%;
+            }
+          }
 
           p {
             margin-left: 45px;
@@ -202,6 +199,413 @@
             font-weight: 500;
             line-height: 30.86px;
             text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          gap: 89px;
+          &__quests,
+          &__rewards,
+          &__ama,
+          &__tournaments {
+            width: 80%;
+            text-align: center;
+            height: 320px;
+            div {
+              h1 {
+                margin: 0 auto;
+                font-size: 168px;
+              }
+            }
+            p {
+              margin: 0 auto;
+            }
+          }
+          &__quests {
+            order: 0;
+            div {
+              img {
+                top: 35px;
+                right: 223px;
+              }
+            }
+          }
+          &__rewards {
+            order: 1;
+            div {
+              img {
+                right: 138px;
+                top: 37px;
+              }
+            }
+          }
+          &__ama {
+            order: 0;
+            div {
+              img {
+                right: 268px;
+                top: 50px;
+              }
+            }
+          }
+          &__tournaments {
+            order: 1;
+            div {
+              img {
+                top: 58px;
+                right: 14%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          &__circle {
+            left: 20px;
+          }
+          &__quests {
+            div {
+              img {
+                right: 159px;
+              }
+            }
+          }
+          &__rewards {
+            div {
+              img {
+                right: 77px;
+              }
+            }
+          }
+          &__ama {
+            div {
+              img {
+                right: 204px;
+              }
+            }
+          }
+          &__tournaments {
+            div {
+              img {
+                right: 7%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          &__quests {
+            width: 90%;
+
+            div {
+              img {
+                right: 143px;
+              }
+            }
+          }
+          &__rewards {
+            width: 90%;
+            div {
+              img {
+                right: 63px;
+              }
+            }
+          }
+          &__ama {
+            width: 90%;
+            div {
+              img {
+                right: 190px;
+              }
+            }
+          }
+          &__tournaments {
+            width: 90%;
+            div {
+              img {
+                right: 6%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 834px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          &__quests,
+          &__rewards,
+          &__ama,
+          &__tournaments {
+            width: 95%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          &__quests {
+            div {
+              img {
+                right: 112px;
+              }
+            }
+          }
+          &__rewards {
+            div {
+              img {
+                right: 29px;
+              }
+            }
+          }
+          &__ama {
+            div {
+              img {
+                right: 162px;
+              }
+            }
+          }
+          &__tournaments {
+            div {
+              img {
+                right: 2%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          &__circle {
+            left: -129px;
+          }
+          &__quests,
+          &__rewards,
+          &__ama,
+          &__tournaments {
+            height: 144.107px;
+            div {
+              h1 {
+                font-size: 75.656px;
+                letter-spacing: 0px;
+              }
+            }
+            p {
+              font-size: 9.007px;
+              width: 329px;
+              line-height: 154.3%;
+            }
+          }
+          &__quests {
+            div {
+              img {
+                width: 38px;
+                right: 145px;
+                top: 13px;
+              }
+            }
+          }
+          &__rewards {
+            div {
+              img {
+                width: 56px;
+                height: 56px;
+                right: 107px;
+                top: 15px;
+              }
+            }
+          }
+          &__ama {
+            div {
+              img {
+                width: 46px;
+                height: 46px;
+                top: 23px;
+                right: 176px;
+              }
+            }
+          }
+          &__tournaments {
+            div {
+              img {
+                width: 46.384px;
+                height: 44.065px;
+                top: 20px;
+                right: 18.5%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 452px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          gap: 46px;
+          &__circle {
+            left: -241px;
+          }
+          &__quests {
+            div {
+              img {
+                right: 90px;
+              }
+            }
+          }
+          &__rewards {
+            div {
+              img {
+                right: 54px;
+              }
+            }
+          }
+          &__ama {
+            div {
+              img {
+                right: 121px;
+              }
+            }
+          }
+          &__tournaments {
+            div {
+              img {
+                right: 10%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          &__quests {
+            div {
+              img {
+                right: 66px;
+              }
+            }
+          }
+          &__rewards {
+            div {
+              img {
+                right: 30px;
+              }
+            }
+          }
+          &__ama {
+            div {
+              img {
+                right: 96px;
+              }
+            }
+          }
+          &__tournaments {
+            div {
+              img {
+                right: 5%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  #Hero4 {
+    .container {
+      .hero4 {
+        &--block {
+          &__circle {
+            left: -326px;
+          }
+          &__quests,
+          &__rewards,
+          &__ama,
+          &__tournaments {
+            width: 97%;
+          }
+          &__quests {
+            div {
+              img {
+                right: 66px;
+              }
+            }
+          }
+          &__rewards {
+            div {
+              img {
+                right: 24px;
+              }
+            }
+          }
+          &__ama {
+            div {
+              img {
+                right: 90px;
+              }
+            }
+          }
+          &__tournaments {
+            div {
+              img {
+                right: 3%;
+              }
+            }
           }
         }
       }

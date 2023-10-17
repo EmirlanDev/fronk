@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path={"/"} element={<FirstPage />} />
-        {/* <Route path={"/second"} element={<SecondPage />} /> */}
+        <Route path={"/second"} element={<SecondPage />} />
       </Routes>
       <Footer />
     </div>

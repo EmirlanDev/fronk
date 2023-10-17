@@ -9,9 +9,9 @@ const FirstPage = () => {
   return (
     <div>
       <Sections1 />
-      {/* <Sections2/> */}
-      {/* <Sections3/> */}
-      {/* <Sections4/> */}
+      <Sections2 />
+      <Sections3 />
+      <Sections4 />
     </div>
   );
 };

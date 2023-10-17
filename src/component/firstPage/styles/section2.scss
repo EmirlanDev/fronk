@@ -130,3 +130,309 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  #Hero2 .container .hero2--block__content h6 {
+    width: 541px;
+  }
+  #Hero2 .container .hero2--block {
+    iframe {
+      width: 550px;
+    }
+  }
+  #Hero2 .container .hero2--block__content--lineas__linea1 {
+    width: 6px;
+    height: 98px;
+  }
+  #Hero2 .block2--Customize1 h1 {
+    font-size: 83px;
+  }
+  #Hero2 .block2--Customize2 h1 {
+    font-size: 83px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #Hero2 .block2--Customize1 h1 {
+    font-size: 73px;
+  }
+  #Hero2 .block2--Customize2 h1 {
+    font-size: 73px;
+  }
+  #Hero2 .block2--Customize1 h2 {
+    font-size: 90px;
+  }
+  #Hero2 .block2--Customize2 h2 {
+    font-size: 90px;
+  }
+  #Hero2 .container .hero2--block__content h6 {
+    width: 480px;
+    font-size: 17px;
+  }
+  #Hero2 .container .hero2--block {
+    iframe {
+      width: 450px;
+    }
+  }
+  #Hero2 .container .hero2--block__circle {
+    left: 360px;
+    top: -58px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  #Hero2 .block2--Customize1 h1 {
+    font-size: 43px;
+  }
+  #Hero2 .block2--Customize2 h1 {
+    font-size: 43px;
+  }
+  #Hero2 .block2--Customize1 h2 {
+    font-size: 70px;
+  }
+  #Hero2 .block2--Customize2 h2 {
+    font-size: 70px;
+  }
+  #Hero2 .block2--Customize2 {
+    height: 90px;
+  }
+  #Hero2 .block2--Customize1 {
+    height: 90px;
+  }
+  #Hero2 .container .hero2--block__content h6 {
+    width: 410px;
+    font-size: 15px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+  }
+  #Hero2 .container .hero2--block {
+    iframe {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  #Hero2 .container .hero2--block__circle {
+    left: 315px;
+    top: -58px;
+  }
+  #Hero2 .container .hero2--block iframe {
+    width: 400px;
+    height: 332px;
+  }
+}
+
+@media (max-width: 768px) {
+  #Hero2 .block2--Customize1 h1 {
+    font-size: 33px;
+  }
+  #Hero2 .block2--Customize2 h1 {
+    font-size: 33px;
+  }
+  #Hero2 .block2--Customize1 h2 {
+    font-size: 50px;
+  }
+  #Hero2 .block2--Customize2 h2 {
+    font-size: 50px;
+  }
+  #Hero2 .block2--Customize2 {
+    height: 90px;
+  }
+  #Hero2 .block2--Customize1 {
+    height: 90px;
+  }
+  #Hero2 .block2--Customize1__svg {
+    width: 40px;
+  }
+  #Hero2 .container .hero2--block {
+    flex-direction: column-reverse;
+  }
+  #Hero2 .container .hero2--block__circle {
+    left: 78px;
+    top: -184px;
+  }
+  #Hero2 .container .hero2--block__content h6 {
+    width: 610px;
+    font-size: 20px;
+    padding-top: 27px;
+  }
+  #Hero2 .container .hero2--block iframe {
+    width: 600px;
+    height: 332px;
+  }
+}
+
+@media (max-width: 576px) {
+  #Hero2 .container .hero2--block iframe {
+    width: 500px;
+    height: 332px;
+  }
+  #Hero2 .container .hero2--block__content h6 {
+    width: 488px;
+    font-size: 20px;
+    padding-top: 27px;
+    text-align: start;
+  }
+  #Hero2 .container .hero2--block__circle {
+    left: -38px;
+    width: 542px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    margin-left: -12px;
+    width: 229px;
+  }
+  #Hero2 .container .hero2--block__content--lineas__linea1 {
+    width: 4px;
+    height: 77px;
+  }
+
+  #Hero2 .container .hero2--block__circle {
+    left: -99px !important;
+  }
+}
+
+@media (max-width: 451px) {
+  #Hero2 .container .hero2--block iframe {
+    width: 406px !important;
+    height: 226px !important;
+  }
+
+  #Hero2 .container .hero2--block__circle {
+    left: -61px;
+    top: -142px;
+  }
+  #Hero2 .container .hero2--block__content h6 {
+    width: 391px !important;
+    font-size: 19px !important;
+    padding-top: 27px !important;
+    text-align: start !important;
+  }
+  #Hero2 .block2--Customize1 h2 {
+    font-size: 37px;
+  }
+  #Hero2 .block2--Customize2 h2 {
+    font-size: 37px;
+  }
+  #Hero2 .container .hero2--block__circle {
+    width: 474px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    gap: 0px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    margin-left: -12px;
+    width: 229px;
+  }
+  #Hero2 .container .hero2--block__content--lineas__linea1 {
+    width: 4px;
+    height: 77px;
+  }
+}
+
+@media (max-width: 400px) {
+  #Hero2 .container .hero2--block__circle {
+    width: 380px;
+  }
+  #Hero2 .container .hero2--block iframe {
+    width: 366px !important;
+    height: 205px !important;
+  }
+  #Hero2 .container .hero2--block__content h6 {
+    width: 377px;
+    font-size: 14px;
+  }
+  #Hero2 .block2--Customize2 h1 {
+    font-size: 26px;
+  }
+  #Hero2 .block2--Customize1 h1 {
+    font-size: 26px;
+  }
+  #Hero2 .block2--Customize1 h2 {
+    font-size: 34px;
+  }
+  #Hero2 .block2--Customize2 h2 {
+    font-size: 34px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    gap: 0px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    gap: 0px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    margin-left: 4px;
+    width: 229px;
+  }
+  #Hero2 .container .hero2--block__content--lineas__linea1 {
+    width: 4px;
+    height: 77px;
+  }
+}
+
+@media (max-width: 376px) {
+  #Hero2 .container .hero2--block iframe {
+    width: 340px;
+    height: 252px;
+  }
+  #Hero2 .container .hero2--block__content h6 {
+    width: 343px !important;
+    font-size: 12px;
+    margin-left: 11px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    gap: 0px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    margin-left: 4px;
+    width: 229px;
+  }
+  #Hero2 .container .hero2--block__content--lineas__linea1 {
+    width: 4px;
+    height: 77px;
+  }
+}
+
+@media (max-width: 320px) {
+  #Hero2 .container .hero2--block iframe {
+    width: 300px;
+    height: 252px;
+  }
+  #Hero2 .container .hero2--block__content h6 {
+    width: 273px;
+    font-size: 11px;
+    margin-left: -5px;
+  }
+  #Hero2 .block2--Customize2 h1 {
+    font-size: 18px;
+  }
+  #Hero2 .block2--Customize1 h1 {
+    font-size: 18px;
+  }
+  #Hero2 .block2--Customize1 h2 {
+    font-size: 30px;
+  }
+  #Hero2 .block2--Customize2 h2 {
+    font-size: 30px;
+  }
+  #Hero2 .block2--Customize1__svg {
+    width: 27px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    margin-left: -14px;
+  }
+  #Hero2 .container .hero2--block__content--lineas {
+    margin-left: -14px;
+    width: 191px;
+  }
+  #Hero2 .container .hero2--block__content--lineas__linea1 {
+    width: 4px;
+    height: 77px;
+  }
+}

@@ -16,9 +16,9 @@
           border-radius: 615px;
           opacity: 0.5;
           background: radial-gradient(
-                          50% 50% at 50% 50%,
-                          #ec8425 0%,
-                          rgba(236, 132, 37, 0) 100%
+            50% 50% at 50% 50%,
+            #ec8425 0%,
+            rgba(236, 132, 37, 0) 100%
           );
           filter: blur(175px);
         }
@@ -81,7 +81,6 @@
                 transform: rotate(-7.8deg);
               }
             }
-
           }
         }
       }
@@ -96,7 +95,7 @@
     background: #e57208;
     margin: 228px 0 130px 0;
     h2 {
-      color: #1B1A1A;
+      color: #1b1a1a;
       font-family: Alumni Sans;
       font-size: 125.63px;
       font-style: normal;
@@ -111,7 +110,6 @@
     }
 
     h3 {
-
       font-family: Alumni Sans;
       font-size: 125.63px;
       font-style: normal;
@@ -121,5 +119,262 @@
       color: transparent;
       -webkit-text-stroke: 1px #181818;
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero3--block__content--img img {
+    width: 470px;
+    height: 530px;
+  }
+  #Hero3 .container .hero3--block__content--text h1 {
+    width: 509px;
+    font-size: 18px;
+    text-align: start;
+  }
+  #Hero3 .container .hero3--blockcontent--textclothImg {
+    gap: 2px;
+    margin: 55px 0 32px 0;
+  }
+  .hero3--blockcontent--textclothImg img {
+    width: 45px;
+  }
+  #Hero3 .container .hero3--blockcontent--textsquare {
+    width: 583px;
+    height: 108px;
+  }
+  #Hero3 .container .hero3--blockcontent--textsquare p:nth-child(1) {
+    width: 591px;
+    bottom: 55.3px;
+    transform: rotate(10deg);
+  }
+  #Hero3 .container .hero3--blockcontent--textsquare p:nth-child(2) {
+    transform: rotate(-9.8deg);
+    width: 590px;
+    bottom: 52.3px;
+  }
+  #Hero3 .container .hero3--block__content--img {
+    width: 511px;
+    height: 563px;
+  }
+  #Hero3 .block2 h2 {
+    font-size: 94.63px;
+    margin: 0 33px;
+  }
+  #Hero3 .block2 h3 {
+    font-size: 118.63px;
+  }
+  #Hero3 {
+    margin-top: 200px;
+  }
+  #Hero3 .block2 {
+    margin: 228px 0 74px 0;
+  }
+  #footer .footer .footer--info__links {
+    width: 27%;
+    padding: 0 0 20px;
+  }
+  #footer .footer .footer--info__links p {
+    font-size: 18px;
+  }
+  #footer .footer .footer--info__logos {
+    margin: 20px 0 10px;
+  }
+}
+@media (max-width: 1024px) {
+  #header .container .header--menu h1 {
+    font-size: 18px;
+  }
+  #footer .footer .footer--info__links {
+    display: flex;
+    width: 32%;
+    gap: 13px;
+  }
+  #Hero3 .container .hero3--block__content--text h1 {
+    width: 446px;
+    font-size: 14px;
+  }
+
+  #Hero3 .container .hero3--blockcontent--textsquare {
+    width: 516px;
+    height: 100px;
+  }
+  #Hero3 .container .hero3--blockcontent--textsquare p:nth-child(1) {
+    width: 521px;
+    bottom: 49.3px;
+    transform: rotate(10.7deg);
+  }
+  #Hero3 .container .hero3--blockcontent--textsquare p:nth-child(2) {
+    transform: rotate(-10.8deg);
+    width: 522px;
+    bottom: 49.3px;
+  }
+
+  #Hero3 .container .hero3--blockcontent--textclothImg {
+    gap: 11px;
+    margin: 52px 62px 32px 57px;
+  }
+
+  .hero3--block__content--img img {
+    width: 393px;
+    height: 478px;
+  }
+  #Hero3 .container .hero3--block__content--img {
+    width: 417px;
+    height: 506px;
+  }
+  #Hero3 {
+    margin-top: 150px;
+  }
+  #Hero3 .block2 h2 {
+    font-size: 75.63px;
+    margin: 0 33px;
+  }
+  #Hero3 .block2--svg {
+    width: 50px;
+  }
+  #Hero3 .block2 h3 {
+    font-size: 97.63px;
+  }
+  #footer .footer .footer--info__links p {
+    font-size: 16px;
+  }
+  #footer .footer .footer--info__dop p {
+    font-size: 17px;
+  }
+  #footer .footer .footer-logo {
+    width: 24px;
+  }
+  #footer .footer .footer--info__logos img {
+    width: 57px;
+  }
+  #Hero3 .block2 {
+    margin: 228px 0 70px 0;
+  }
+}
+@media (max-width: 992px) {
+  #Hero3 .container .hero3--block__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Hero3 .container .hero3--block {
+    padding: 150px 0 0;
+  }
+  #Hero3 .container .hero3--blockcontent--textsquare {
+    width: 745px;
+    height: 111px;
+    bottom: 1500px;
+  }
+  #Hero3 .container .hero3--blockcontent--textsquare p:nth-child(1) {
+    width: 751px;
+    bottom: 54.3px;
+    transform: rotate(8.2deg);
+  }
+  #Hero3 .container .hero3--blockcontent--textsquare p:nth-child(2) {
+    transform: rotate(-8.2deg);
+    width: 751px;
+    bottom: 54.3px;
+  }
+  #Hero3 .container .hero3--block__content--img {
+    width: 740px;
+    height: 713px;
+  }
+  .hero3--block__content--img img {
+    width: 709px;
+    height: 682px;
+  }
+  #Hero3 .container .hero3--block__content--text h1 {
+    font-size: 26px;
+    line-height: 154.3%;
+    width: 735px;
+  }
+  .hero3--block__content--text {
+    padding: 60px 0 0;
+  }
+  .hero3--blockcontent--textclothImg img {
+    width: auto;
+  }
+  #Hero3 .container .hero3--blockcontent--textclothImg {
+    gap: 11px;
+    margin: 52px 0 32px 0;
+  }
+}
+@media (max-width: 768px) {
+  #Hero3 .container .hero3--block__circle {
+    left: 90px;
+  }
+}
+@media (max-width: 576px) {
+  #Hero3 .container .hero3--block__content--text__clothImg img {
+    width: 43px !important;
+    height: 50px !important;
+  }
+  #Hero3 .container .hero3--block__content--text h1 {
+    width: 515px !important;
+  }
+  #Hero3 .container .hero3--block__circle {
+    left: -135px !important;
+  }
+  #Hero3 .block2 h2 {
+    font-size: 52.63px !important;
+  }
+}
+
+@media (max-width: 451px) {
+  #Hero3 {
+    .container {
+      .hero3 {
+        &--block {
+          &__circle {
+            left: -257px !important;
+          }
+          &__content {
+            &--img {
+              width: 330.185px !important;
+              height: 318.138px !important;
+              img {
+                width: 316.353px;
+                height: 304.306px;
+              }
+            }
+            &--text {
+              &__square {
+                p:nth-child(2) {
+                  width: 430px !important;
+                  right: -6px !important;
+                  transform: rotate(-12.9deg) !important;
+                }
+                p:nth-child(1) {
+                  width: 427px !important;
+                  right: -5px !important;
+                  transform: rotate(12.9deg) !important;
+                }
+              }
+              h1 {
+                width: 330px !important;
+              }
+              &__clothImg {
+                img {
+                  width: 24px !important;
+                  height: 31px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #Hero3 .container .hero3--block__content--text__clothImg {
+    gap: 13px !important;
+  }
+
+  #Hero3 .container .hero3--block__content--text__square {
+    height: 50.135px !important;
+    width: 358px !important;
   }
 }
